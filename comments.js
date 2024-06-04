@@ -29,7 +29,3 @@ app.delete('/comments', (req, res) => {
   comments.splice(index, 1);
   res.json(comments);
 });
-
-app.listen(3000, () => {
-  console.log('Server is listening on port 3000');
-});
